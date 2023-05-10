@@ -12,13 +12,5 @@
      $maryWins = 0; 
      $johnWins = 0; 
   
-     foreach ($results as $result) { 
-         if ($result == 0) { 
-             $maryWins++; 
-         } elseif ($result == 1) { 
-             $johnWins++; 
-         } 
-     } 
-  
      echo "Mary won $maryWins times and John won $johnWins times\n"; 
  } 
